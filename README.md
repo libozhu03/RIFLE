@@ -1,12 +1,12 @@
 <div align="center">
   <p align="center">
-    <img src="asserts/figs/logo.png" width="400px">
+    <img src="asserts/figs/logo.png" width="300px">
   </p>
 </div>
 
 # RIFLE: Removal of Image Flicker-Banding via Latent Diffusion Enhancement
 
-[LiBo Zhu](https://github.com/LiBoZhu030073), [Zihan Zhou](), [Xiaoyang Liu](), [Weihang Zhang](), [Keyu Shi](), [Yifan Fu]() and [Yulun Zhang](http://yulunzhang.com/)  
+[LiBo Zhu](https://github.com/LiBoZhu030073), [Zihan Zhou](https://github.com/ZZH-qwq), [Xiaoyang Liu](), [Weihang Zhang](), [Keyu Shi](), [Yifan Fu]() and [Yulun Zhang](http://yulunzhang.com/)  
 **"RIFLE: Removal of Image Flicker-Banding via Latent Diffusion Enhancement", arxiv 2025**
 
 <!-- [![page](https://img.shields.io/badge/Project-Page-blue?logo=github)](https://labor555.github.io/PassionSR_Web/) -->
@@ -19,7 +19,7 @@
 ---
 
 <p align="center">
-  <img src="asserts/figs/poster.png" width="1000px"> 
+  <img src="asserts/figs/poster.jpg" width="1000px"> 
 </p>
 
 ---
