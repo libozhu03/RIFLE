@@ -10,7 +10,7 @@
 **"RIFLE: Removal of Image Flicker-Banding via Latent Diffusion Enhancement", arxiv 2025**
 
 <!-- [![page](https://img.shields.io/badge/Project-Page-blue?logo=github)](https://labor555.github.io/PassionSR_Web/) -->
-[![arXiv](https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv)](https://arxiv.org/abs/2411.17106)
+[![arXiv](https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv)](https://arxiv.org/abs/2509.24644)
 [![supp](https://img.shields.io/badge/Supplementary_material-Paper-orange.svg)](https://github.com/user-attachments/files/22590138/compress_arxiv_supp_Libo_Zhu__ICLR_26_Debanding.pdf)
 [![visitors](https://visitor-badge.laobi.icu/badge?page_id=libozhu03.RIFLE&right_color=violet)](https://github.com/libozhu03/RIFLE)
 <!-- [![releases](https://img.shields.io/github/downloads/libozhu03/RIFLE/total.svg)](https://github.com/libozhu03/RIFLE/releases) -->
@@ -130,7 +130,7 @@ We also thank our collaborators and contributors for their valuable feedback and
 @article{zhu2026rifle,
   title={{RIFLE}: Removal of Image Flicker-Banding via Latent Diffusion Enhancement},
   author={Zhu, Libo and Zhou, Zihan and Liu, Xiaoyang and Zhang, Weihang and Shi, Keyu and Fu, Yifan and Zhang, Yulun},
-  journal={arXiv preprint arXiv:2410.04224},
-  year={2026}
+  journal={arXiv preprint arXiv:2509.24644},
+  year={2025}
 }
 ```
