@@ -11,7 +11,7 @@
 
 <!-- [![page](https://img.shields.io/badge/Project-Page-blue?logo=github)](https://labor555.github.io/PassionSR_Web/) -->
 [![arXiv](https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv)](https://arxiv.org/abs/2509.24644)
-[![supp](https://img.shields.io/badge/Supplementary_material-Paper-orange.svg)](https://github.com/user-attachments/files/22590138/compress_arxiv_supp_Libo_Zhu__ICLR_26_Debanding.pdf)
+[![supp](https://img.shields.io/badge/Supplementary_material-Paper-orange.svg)](https://github.com/libozhu03/RIFLE/releases/download/preprint_v1/supp.pdf)
 [![visitors](https://visitor-badge.laobi.icu/badge?page_id=libozhu03.RIFLE&right_color=violet)](https://github.com/libozhu03/RIFLE)
 <!-- [![releases](https://img.shields.io/github/downloads/libozhu03/RIFLE/total.svg)](https://github.com/libozhu03/RIFLE/releases) -->
 <!-- [![GitHub Stars](https://img.shields.io/github/stars/libozhu03/RIFLE?style=social)](https://github.com/libozhu03/RIFLE) -->
