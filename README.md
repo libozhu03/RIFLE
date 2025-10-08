@@ -9,7 +9,7 @@
 [LiBo Zhu](https://github.com/LiBoZhu030073), [Zihan Zhou](https://github.com/ZZH-qwq), [Xiaoyang Liu](), [Weihang Zhang](), [Keyu Shi](), [Yifan Fu]() and [Yulun Zhang](http://yulunzhang.com/)  
 **"RIFLE: Removal of Image Flicker-Banding via Latent Diffusion Enhancement", arxiv 2025**
 
-<!-- [![page](https://img.shields.io/badge/Project-Page-blue?logo=github)](https://labor555.github.io/PassionSR_Web/) -->
+[![page](https://img.shields.io/badge/Project-Page-blue?logo=github)](https://libozhu03.github.io/RIFLE/)
 [![arXiv](https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv)](https://arxiv.org/abs/2509.24644)
 [![supp](https://img.shields.io/badge/Supplementary_material-Paper-orange.svg)](https://github.com/libozhu03/RIFLE/releases/download/preprint_v1/supp.pdf)
 [![visitors](https://visitor-badge.laobi.icu/badge?page_id=libozhu03.RIFLE&right_color=violet)](https://github.com/libozhu03/RIFLE)
