@@ -121,7 +121,7 @@ We also thank our collaborators and contributors for their valuable feedback and
 ```bibtex
 @article{zhu2026rifle,
   title={{RIFLE}: Removal of Image Flicker-Banding via Latent Diffusion Enhancement},
-  author={Zhu, Libo and Zhou, Zihan and Liu, Xiaoyang and Zhang, Weihang and Shi, Keyu and Fu, Yifan and Zhang, Yulun},
+  author={Libo, Zhu and Zihan, Zhou and Xiaoyang, Liu and Weihang, Zhang and Keyu, Shi and Yifan, Fu and Yulun, Zhang},
   journal={arXiv preprint arXiv:2509.24644},
   year={2025}
 }
