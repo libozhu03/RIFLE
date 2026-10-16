@@ -1,0 +1,49 @@
+# More conservative screen-focused banding simulation.
+# The goal is to keep stripe geometry and amplitude close to the stitched
+# screen-region validation target, instead of over-randomizing early training.
+
+angle_range: [-8.0, 8.0]
+stripe_width_range: [8.0, 28.0]
+stripe_gap_range: [8.0, 30.0]
+phase_range: [0.0, 4.0]
+
+global_brightness_range: [0.99, 1.01]
+
+stripe_mode: dark
+dark_apply_space: "ycbcr"
+dark_channels: ["Y"]
+dark_scope: "unified"
+dark_value_range: [0.52, 0.86]
+export_dark_mask_value: 0.5
+
+edge_perp_max_px_range: [0.1, 1.0]
+edge_perp_sigma_range: [1.0, 5.0]
+edge_perp_independent_edges: true
+edge_perp_per_stripe_jitter: true
+edge_jitter_px_range: [0.0, 0.35]
+edge_jitter_sigma_range: [5.0, 18.0]
+
+spacing_jitter_range: [0.05, 0.22]
+width_base_jitter_range: [0.05, 0.20]
+width_wiggle_px_range: [0.1, 0.8]
+wiggle_smooth_sigma_range: [12.0, 48.0]
+wiggle_table_len: 1024
+edge_feather_px_range: [0.6, 1.6]
+
+curve_enable: true
+curve_mode: sin
+curve_amp_px_range: [1.0, 12.0]
+curve_sign_choices: [-1, 1]
+curve_centered: true
+curve_wavelength_px_range: [900.0, 2800.0]
+curve_phase_deg_range: [0.0, 360.0]
+
+cutlines_horizontal_range: [0, 1]
+cutlines_vertical_range: [0, 1]
+cutline_shift_range: [1, 4]
+
+add_noise: true
+noise_type: ["gaussian"]
+sigma_scalar_range: [0.0005, 0.006]
+
+post_blur_sigma_range: [0.0, 0.12]

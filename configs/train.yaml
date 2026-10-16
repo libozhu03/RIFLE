@@ -1,0 +1,65 @@
+# Released RIFLE recipe; paths are relative to this repository.
+pretrained_model_path: preset/models/sd21
+data_config: configs/data.yaml
+output_dir: runs/RIFLE
+max_train_steps: 50000
+seed: 123
+mixed_precision: fp16
+train_batch_size: 2
+gradient_accumulation_steps: 1
+learning_rate: 5.0e-05
+pix_steps: 1000
+lora_rank_unet_pix: 32
+lora_rank_unet_sem: 32
+timesteps1: 1
+null_text_ratio: 0.0
+lambda_l2: 1.0
+lambda_lpips: 2.0
+lambda_csd: 1.0
+mask_loss_lambda: 0.16
+lambda_color_consistency: 0.03
+lambda_color_hist: 0.02
+color_hist_bins: 32
+train_scale_min: 0.98
+train_scale_max: 1.03
+train_scale_prob: 0.35
+train_scale_bucket_step: 0.01
+train_context_scale_min: 1.0
+train_context_scale_max: 1.45
+train_context_scale_prob: 1.0
+train_context_scale_bucket_step: 0.05
+train_mask_guided_context_prob: 1.0
+prior_fast_scale: 1.0
+dataloader_num_workers: 4
+train_prefetch_factor: 4
+train_persistent_workers: true
+eval_num_workers: 2
+checkpointing_steps: 500
+eval_freq: 500
+save_eval_lq_gt: true
+eval_save_limit: 24
+gradient_checkpointing: false
+enable_xformers_memory_efficient_attention: false
+allow_tf32: true
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_weight_decay: 0.01
+adam_epsilon: 1.0e-08
+max_grad_norm: 1.0
+lr_scheduler: constant
+lr_warmup_steps: 500
+lr_num_cycles: 1
+lr_power: 1.0
+set_grads_to_none: false
+report_to: tensorboard
+tracker_project_name: RIFLE
+resolution: 512
+prompt: ''
+negative_prompt: painting, oil painting, illustration, drawing, art, sketch, oil painting, cartoon, CG Style, 3D render, unreal engine, blurring, dirty, messy, worst quality, low quality, frames, watermark, signature, jpeg artifacts, deformed, lowres, over-smooth
+val_sets:
+- name: validation
+  lq_dir: data/validation/lq
+  gt_dir: data/validation/gt
+min_dm_step_ratio: 0.02
+max_dm_step_ratio: 0.98
+cfg_csd: 1.0

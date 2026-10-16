@@ -1,0 +1,36 @@
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python and platform files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+._*
+
+# Downloaded models, data, outputs and caches
+/preset/
+/pretrained/
+/data/
+/release_data/
+/weights/*
+!/weights/README.md
+!/weights/*.sha256
+/runs/
+/experiment/
+/experiments/
+/results/
+/logs/
+/cache/
+*.pkl
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.part-*

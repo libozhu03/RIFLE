@@ -1,0 +1,17 @@
+sources:
+- name: lsdir_screenfocus
+  hq_dir: data/LSDIR/HR
+  simulate_config: configs/simulation/screenfocus.yaml
+  sample_ratio: 0.45
+- name: lsdir_screenmix
+  hq_dir: data/LSDIR/HR
+  simulate_config: configs/simulation/screenmix.yaml
+  sample_ratio: 0.15
+- name: uhdm_screenfocus
+  hq_dir: data/UHDM/gt
+  simulate_config: configs/simulation/screenfocus.yaml
+  sample_ratio: 0.25
+- name: uhdm_screenmix
+  hq_dir: data/UHDM/gt
+  simulate_config: configs/simulation/screenmix.yaml
+  sample_ratio: 0.15

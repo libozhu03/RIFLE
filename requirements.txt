@@ -1,0 +1,18 @@
+# Install a matching PyTorch / torchvision pair for your CUDA version first.
+# CPU import/CLI smoke checks use torch==2.2.2 and torchvision==0.17.2.
+# The custom Diffusers modules rely on the APIs in this version range.
+diffusers==0.25.0
+transformers==4.37.2
+peft==0.10.0
+accelerate==0.28.0
+huggingface-hub==0.25.2
+numpy>=1.24,<2
+Pillow>=9.5,<11
+PyYAML>=6,<7
+opencv-python>=4.8,<4.11
+scipy>=1.10,<1.14
+einops>=0.7,<0.9
+safetensors>=0.4,<0.6
+tqdm>=4.66,<5
+lpips==0.1.4
+tensorboard>=2.14,<3

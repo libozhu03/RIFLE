@@ -1,0 +1,50 @@
+# Screen-oriented online simulation distribution.
+# Compared with hardmix, this narrows stripe geometry and darkening strength,
+# reduces arbitrary rotation, and keeps deformation gentler so samples stay
+# closer to real stitched screen-region banding.
+
+angle_range: [-12.0, 12.0]
+stripe_width_range: [10.0, 42.0]
+stripe_gap_range: [6.0, 38.0]
+phase_range: [0.0, 6.0]
+
+global_brightness_range: [0.985, 1.015]
+
+stripe_mode: dark
+dark_apply_space: "ycbcr"
+dark_channels: ["Y"]
+dark_scope: "unified"
+dark_value_range: [0.62, 0.92]
+export_dark_mask_value: 0.5
+
+edge_perp_max_px_range: [0.2, 1.8]
+edge_perp_sigma_range: [1.0, 8.0]
+edge_perp_independent_edges: true
+edge_perp_per_stripe_jitter: true
+edge_jitter_px_range: [0.0, 0.6]
+edge_jitter_sigma_range: [4.0, 16.0]
+
+spacing_jitter_range: [0.08, 0.45]
+width_base_jitter_range: [0.08, 0.40]
+width_wiggle_px_range: [0.2, 1.5]
+wiggle_smooth_sigma_range: [8.0, 40.0]
+wiggle_table_len: 1024
+edge_feather_px_range: [0.6, 2.0]
+
+curve_enable: true
+curve_mode: sin
+curve_amp_px_range: [3.0, 24.0]
+curve_sign_choices: [-1, 1]
+curve_centered: true
+curve_wavelength_px_range: [700.0, 2200.0]
+curve_phase_deg_range: [0.0, 360.0]
+
+cutlines_horizontal_range: [0, 2]
+cutlines_vertical_range: [0, 2]
+cutline_shift_range: [1, 8]
+
+add_noise: true
+noise_type: ["gaussian"]
+sigma_scalar_range: [0.001, 0.01]
+
+post_blur_sigma_range: [0.0, 0.25]
