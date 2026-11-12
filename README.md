@@ -12,6 +12,7 @@
 [![page](https://img.shields.io/badge/Project-Page-blue?logo=github)](https://libozhu03.github.io/RIFLE/)
 [![arXiv](https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv)](https://arxiv.org/abs/2509.24644)
 [![supp](https://img.shields.io/badge/Supplementary_material-Paper-orange.svg)](https://github.com/libozhu03/RIFLE/releases/download/preprint_v1/supp.pdf)
+[![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-FFD21E?logo=huggingface)](https://huggingface.co/datasets/Laborrrrrrrr/RIFLE)
 [![visitors](https://visitor-badge.laobi.icu/badge?page_id=libozhu03.RIFLE&right_color=violet)](https://github.com/libozhu03/RIFLE)
 
 <!-- [![releases](https://img.shields.io/github/downloads/libozhu03/RIFLE/total.svg)](https://github.com/libozhu03/RIFLE/releases) -->
