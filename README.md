@@ -43,6 +43,7 @@
 
 ## 🔥 News
 
+- **[2026-11-12]** The [real-world RIFLE evaluation dataset](https://huggingface.co/datasets/Laborrrrrrrr/RIFLE) is now public, with 4K image pairs and 512 × 512 test crops.
 - **[2026-10-16]** Code is released.
 - 🏆 **[2026-09-25]** Congratulations! RIFLE has been accepted to NeurIPS 2026.
 - **[2025-09-29]** Create repository.
@@ -126,7 +127,26 @@ See [checkpoint instructions](weights/README.md) for the SHA256 checksum and
 
 ### Dataset
 
-**Dataset release: Comming soon.**
+The [RIFLE evaluation dataset on Hugging Face](https://huggingface.co/datasets/Laborrrrrrrr/RIFLE) contains paired photographs for evaluating flicker-banding removal. Each image in `lq/` shows flicker-banding. Its counterpart in `gt/` has the same filename and provides the banding-free reference.
+
+| Folder | Contents | Image pairs | Resolution |
+| --- | --- | ---: | --- |
+| `4K/` | Full-resolution photographs (JPEG) | 107 | 4096 × 2304 or 4096 × 3072 |
+| `test_512/` | Test crops (PNG) | 424 | 512 × 512 |
+
+Download the dataset (1.21 GB) from the project root using the [Hugging Face CLI](https://huggingface.co/docs/huggingface_hub/guides/cli).
+
+```bash
+hf download Laborrrrrrrr/RIFLE --repo-type dataset --local-dir data/RIFLE
+```
+
+After installing the pretrained models, run inference on the test crops.
+
+```bash
+python infer.py --pretrained_path weights/RIFLE.pkl --input_path data/RIFLE/test_512/lq --output_dir results/rifle_test_512
+```
+
+Use `data/RIFLE/test_512/gt/` as the reference directory when evaluating the restored crops.
 
 ## 🧪 Inference
 
